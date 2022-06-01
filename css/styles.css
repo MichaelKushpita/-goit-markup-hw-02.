@@ -119,7 +119,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.comand-title.list {
+.comand-title-list {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -127,21 +127,13 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.comand-text.items {
+.comand-text-items {
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-}
-/* =================================фон section-company.caption .section-comand.caption */
-.section-company.caption {
-    background: #E5E5E5;
-}
-.section-comand.caption {
-    background: #F5F4FA;
-}
-
+}    
 /* footer list */
 .footerlist-address {
     color: var(--white-text-color);
