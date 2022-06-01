@@ -7,7 +7,7 @@
 body {
     background-color:var(--white-text-color);
     color: var(--primary-text-color);
-    font-family: Roboto;
+    font-family: "Roboto" , sans-serif;
 }
 /* logo сайта */
 .logo {
@@ -36,7 +36,7 @@ body {
     color: var(--accent-color);
 }
 /*   ========================активна  синя кнопка======================= */
-.navlist-studiolist, .headerlist-mailtolist, .navlist-portfoliolist {
+.navlist-studiolist, .navlist-portfoliolist {
     color: var(--accent-color);
 }
 /* header list mailo i tel */
@@ -67,6 +67,8 @@ body {
 .button {
     color: var(--white-text-color);
      background-color: var(--accent-color);
+    font-family: Roboto;
+    cursor: pointer;
     font-size: 16px;
     line-height: 1.88;
     display: flex;
@@ -74,7 +76,19 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 }
-
+.button:hover {
+    background: #2196F3;
+    position: absolute;
+    visibility: hidden;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+}
+/* ==============================фон hero and footer================== */
+.hero, .footer {
+    background-color: #2F303A;
+}
 /* section звголовків */
 .section-title {
     color: var(--primary-text-color);
@@ -86,12 +100,12 @@ body {
 }
 .section-text {
    color: var(--title-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-.section-company, .section-comand {
+/* ===============================заголовок h2=================== */
+.company.title, .comand.title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -99,7 +113,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.section-comand-title {
+.comand-title.list {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -107,19 +121,25 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.section-comand-text {
+.comand-text.items {
     color: var(--title-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
+/* =================================фон section-company.caption .section-comand.caption */
+.section-company.caption {
+    background: #E5E5E5;
+}
+.section-comand.caption {
+    background: #F5F4FA;
+}
 
 /* footer list */
 .footerlist-address {
     color: var(--white-text-color);
-    font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -127,7 +147,6 @@ body {
 .footerlist-mailto,
 .footerlist-tel {
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -161,6 +180,8 @@ a{text-decoration: none};
 .portfolio-buttonlist {
     color: var(--white-text-color);
     background-color: var(--accent-color);
+    font-family: Roboto;
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -170,6 +191,8 @@ a{text-decoration: none};
 .portfolio-button {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
+    font-family: Roboto;
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -186,7 +209,6 @@ a{text-decoration: none};
 }
 .portfolio-text {
     color: var(--title-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
