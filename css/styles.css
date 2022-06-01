@@ -35,11 +35,14 @@ body {
 .navlist-studio:hover,.navlist-portfolio:hover,.navlist-contacts:hover {
     color: var(--accent-color);
 }
-/*   ========================активна  синя кнопка======================= */
-.navlist-studiolist, .navlist-portfoliolist {
-    color: var(--accent-color);
+.navlist a {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing:0.02em;
 }
-/* header list mailo i tel */
+/* header list mailto i tel */
 .headerlist-mailto,.headerlist-tel {
     color: var(--title-text-color);
     font-weight: 500;
@@ -47,12 +50,23 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.headerlist-mailto:hover, .headerlist-tel:hover {
-  color: var(--accent-color);  
+.headerlist-mailtolist:hover, .headerlist-tel:hover {
+  color: var(--accent-color);
 }
 .headerlist-mailto:focus, .headerlist-tel:focus {
     color: var(--accent-color);
 }
+/* ======================активна синя кнопка================= */
+.navlist-studio, .navlist-portfoliolist {
+    color: var(--accent-color);
+}
+.headerlist a {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}    
 /* головний заголовок */
 .hero-title {
     color: var(--white-text-color);
@@ -69,6 +83,7 @@ body {
      background-color: var(--accent-color);
     font-family: Roboto;
     cursor: pointer;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     display: flex;
@@ -77,13 +92,7 @@ body {
     letter-spacing: 0.06em;
 }
 .button:hover {
-    background: #2196F3;
-    position: absolute;
-    visibility: hidden;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
+    background: #188CE8;
 }
 /* ==============================фон hero and footer================== */
 .hero, .footer {
@@ -104,7 +113,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-/* ===============================заголовок h2=================== */
+/* ===============================заголовок h2 секція=================== */
 .company.title, .comand.title {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -143,6 +152,9 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+.address {
+    font-style: normal;
 }
 .footerlist-mailto,
 .footerlist-tel {
@@ -198,6 +210,10 @@ a{text-decoration: none};
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+}
+.portfolio-button:hover, portfolio-button:focus {
+    color:var(--white-text-color) ;
+    background-color: var(--accent-color);
 }
 
 .portfolio-title {
