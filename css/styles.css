@@ -50,16 +50,13 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.headerlist-mailtolist:hover, .headerlist-tel:hover {
-  color: var(--accent-color);
-}
-.headerlist-mailto:focus, .headerlist-tel:focus {
+.headerlist a:hover,
+.headerlist a:focus,
+.navlist a:hover,
+.navlist a:focus {
     color: var(--accent-color);
 }
-/* ======================активна синя кнопка================= */
-.navlist-studio, .navlist-portfoliolist {
-    color: var(--accent-color);
-}
+
 .headerlist a {
     color: var(--title-text-color);
     font-weight: 500;
@@ -114,7 +111,7 @@ body {
     letter-spacing: 0.03em;
 }
 /* ===============================заголовок h2 секція=================== */
-.company.title, .comand.title {
+.title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
