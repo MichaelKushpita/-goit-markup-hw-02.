@@ -116,7 +116,6 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 .comand-title-list {
@@ -124,16 +123,15 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 .comand-text-items {
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
-}    
+}
+
 /* footer list */
 .footerlist-address {
     color: var(--white-text-color);
